@@ -2,7 +2,7 @@ function checkForUrl(url) {
     try {
         new URL(url);
         return true;
-    } catch (_) {
+    } catch (error) {
         return false;
     }
 }
