@@ -11,7 +11,8 @@ This project allows users to evaluate news articles or blog posts by providing a
 - Validation of form input to ensure the URL is not blank.
 - Jest tests for JavaScript files.
 
-### Explanation of Scripts:
-- **start**: Starts the development server with Webpack, typically at `http://localhost:8000`.
-- **build**: Bundles the application for production, optimizing files for deployment.
-- **test**: Runs unit tests via Jest to verify the functionality of JavaScript files.
+### Scripts:
+- **npm start**: Starts the development server with Webpack, typically at `http://localhost:8000`.
+- **npm run build-dev**: Bundles the application for development.
+- **npm run build-prod**: Bundles the application for production, optimizing files for deployment.
+- **npm run test**: Runs unit tests via Jest to verify the functionality of JavaScript files.
